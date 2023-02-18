@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Readex+Pro:wght@500&display=swap");
+/* reset margins and paddings for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* center the weather container both horizontally and vertically */
+.wrapper {
+  height: 100vh;
+  background: rgb(76, 84, 119);
+}
+
+/* style the title of the weather description */
+.app-title {
+  /* add some top margin to the title */
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  padding: 10px;
+}
+
+/* style the input field */
+.input__field {
+  /* add some padding to the input field */
+  padding: 0.5rem;
+  /* add some margin to the input field */
+  margin-right: 0.5rem;
+  /* add a border to the input field */
+  border: 1px solid #ccc;
+  /* add rounded corners to the input field */
+  border-radius: 5px;
+}
+
+/* style the search button */
+.btn {
+  /* add some padding to the button */
+  padding: 0.5rem;
+  /* add a background color to the button */
+  background-color: #1e90ff;
+  /* add a border to the button */
+  border: 1px solid #1e90ff;
+  /* add rounded corners to the button */
+  border-radius: 5px;
+  /* add some text color to the button */
+  color: #fff;
+  /* change the cursor to a pointer on hover */
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
